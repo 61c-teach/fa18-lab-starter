@@ -1,0 +1,64 @@
+Lab 1 Answers
+
+Name: 
+SID: 
+3-letter login: 
+
+Exercise 1: Binary Alphabet
+What does the following bit pattern look like? 
+0 1 1 0
+1 0 0 1
+1 1 1 1
+1 0 0 1
+1 0 0 1
+
+What five decimal digits produce the pattern above?
+1) 
+2) 
+3) 
+4) 
+5) 
+
+What are those decimal digits in hexadecimal?
+1) 
+2) 
+3) 
+4) 
+5) 
+
+What letter is drawn with 1, 1, 9, 9, 6?
+
+What letter is drawn with 0xF8F88?
+
+What is the hexadecimal representation you would use to spell the letter 'B'?
+
+
+
+
+
+What is the hexadecimal representation you would use to spell the letter 'N'?
+
+
+
+
+
+
+Exercise 3: CGDB Commands
+1. How do you pass command line arguments to a program when using gdb?
+ -
+2. How do you set a breakpoint which only occurs when a set of conditions is true (e.g. when certain variables are a certain value)?
+ -
+3. How do you execute the next line of C code in the program after stopping at a breakpoint?
+ -
+4. If the next line of code is a function call, you'll execute the whole function call at once if you use your answer to #3. (If not, consider a different command for #3!) How do you tell GDB that you want to debug the code inside the function instead? (If you changed your answer to #3, then that answer is most likely now applicable here.)
+ -
+5. How do you resume the program after stopping at a breakpoint?
+ -
+6. How can you see the value of a variable (or even an expression like 1+2) in gdb?
+ -
+7. How do you configure gdb so it prints the value of a variable after every step?
+ -
+8. How do you print a list of all variables and their values in the current function?
+ -
+9. How do you exit out of gdb?
+ -

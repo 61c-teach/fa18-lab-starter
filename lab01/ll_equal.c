@@ -18,11 +18,13 @@ int ll_equal(const node* a, const node* b) {
 }
 
 /* The main function exists just to test ll_equal.
-   There are two tests. The second one is by default 
+   There are two tests. The second one is by default
    buggy. Please find the error and fix it! */
 int main(int argc, char** argv) {
 	int i;
 	node nodes[10];
+
+	// DO NOT CHANGE ANYTHING IN THIS FUNCTION
 
 	for (i=0; i<10; i++) {
 		nodes[i].val = 0;
@@ -38,4 +40,3 @@ int main(int argc, char** argv) {
 
 	return 0;
 }
-

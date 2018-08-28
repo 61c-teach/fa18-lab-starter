@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-/* Only change any of these 4 values */
+/* BEGIN CHANGES */
 #define V0 0
 #define V1 -1
 #define V2 0
 #define V3 0
+/* END CHANGES */
 
 int main(void) {
 	int a;
@@ -21,7 +22,9 @@ int main(void) {
 	}
 	printf("\n");
 
-	/* switch statement */
+	/* switch statement
+	*  DO NOT MODIFY THIS FUNCTION
+	*/
 	switch(V1) {
 		case 0:		printf("Yoshua\n");
 		case 1: 	printf("Triangle Man\n");	break;
@@ -41,6 +44,6 @@ int main(void) {
 	} else  {
 		printf("\n%s CARDINAL!\n",s);
 	}
-    
+
 	return 0;
 }

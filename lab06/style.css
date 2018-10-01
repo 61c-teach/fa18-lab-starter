@@ -1,0 +1,8 @@
+@import url("http://www-inst.eecs.berkeley.edu/~selfpace/cs9honline/css/style.css");
+table {
+	font-family: lucida grande, verdana, sans-serif;
+	font-size: 12px;
+}
+td {
+	text-align: center;
+}

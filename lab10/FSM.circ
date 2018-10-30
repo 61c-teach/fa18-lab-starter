@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.14.5" version="1.0">
+<project source="2.14.6" version="1.0">
 This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -290,18 +290,18 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="610,230" width="10" x="125" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="127" y="67"/>
     </appear>
-    <wire from="(250,200)" to="(250,210)"/>
-    <wire from="(250,240)" to="(250,250)"/>
-    <wire from="(250,280)" to="(250,290)"/>
-    <wire from="(230,200)" to="(250,200)"/>
-    <wire from="(230,240)" to="(250,240)"/>
-    <wire from="(230,280)" to="(250,280)"/>
     <wire from="(250,210)" to="(260,210)"/>
     <wire from="(250,250)" to="(260,250)"/>
     <wire from="(250,290)" to="(260,290)"/>
+    <wire from="(250,200)" to="(250,210)"/>
+    <wire from="(250,240)" to="(250,250)"/>
+    <wire from="(250,280)" to="(250,290)"/>
     <wire from="(250,200)" to="(290,200)"/>
     <wire from="(250,240)" to="(290,240)"/>
     <wire from="(250,280)" to="(290,280)"/>
+    <wire from="(230,200)" to="(250,200)"/>
+    <wire from="(230,240)" to="(250,240)"/>
+    <wire from="(230,280)" to="(250,280)"/>
     <comp lib="0" loc="(610,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -339,17 +339,18 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="610,230" width="10" x="125" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="127" y="67"/>
     </appear>
-    <wire from="(250,200)" to="(250,210)"/>
-    <wire from="(250,240)" to="(250,250)"/>
-    <wire from="(250,280)" to="(250,290)"/>
-    <wire from="(230,200)" to="(250,200)"/>
-    <wire from="(230,240)" to="(250,240)"/>
-    <wire from="(230,280)" to="(250,280)"/>
     <wire from="(250,210)" to="(260,210)"/>
     <wire from="(250,250)" to="(260,250)"/>
     <wire from="(250,290)" to="(260,290)"/>
+    <wire from="(250,200)" to="(250,210)"/>
+    <wire from="(250,240)" to="(250,250)"/>
+    <wire from="(250,280)" to="(250,290)"/>
     <wire from="(250,240)" to="(290,240)"/>
     <wire from="(250,280)" to="(290,280)"/>
+    <wire from="(250,200)" to="(290,200)"/>
+    <wire from="(230,200)" to="(250,200)"/>
+    <wire from="(230,240)" to="(250,240)"/>
+    <wire from="(230,280)" to="(250,280)"/>
     <comp lib="6" loc="(414,131)" name="Text">
       <a name="text" val="PUT CIRCUITRY HERE"/>
     </comp>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.14.6" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="16"/>
@@ -77,10 +76,15 @@
     <a name="circuitnamedbox" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(290,140)" to="(350,140)"/>
+    <wire from="(700,170)" to="(700,340)"/>
     <wire from="(350,60)" to="(410,60)"/>
+    <wire from="(750,40)" to="(750,150)"/>
+    <wire from="(80,110)" to="(80,340)"/>
     <wire from="(710,170)" to="(710,240)"/>
     <wire from="(730,160)" to="(730,230)"/>
     <wire from="(750,150)" to="(750,220)"/>
+    <wire from="(80,110)" to="(100,110)"/>
+    <wire from="(60,340)" to="(80,340)"/>
     <wire from="(750,150)" to="(810,150)"/>
     <wire from="(750,220)" to="(810,220)"/>
     <wire from="(710,40)" to="(750,40)"/>
@@ -88,11 +92,6 @@
     <wire from="(80,340)" to="(700,340)"/>
     <wire from="(710,170)" to="(810,170)"/>
     <wire from="(710,240)" to="(810,240)"/>
-    <wire from="(700,170)" to="(700,340)"/>
-    <wire from="(750,40)" to="(750,150)"/>
-    <wire from="(80,110)" to="(80,340)"/>
-    <wire from="(80,110)" to="(100,110)"/>
-    <wire from="(60,340)" to="(80,340)"/>
     <wire from="(840,230)" to="(910,230)"/>
     <wire from="(840,160)" to="(910,160)"/>
     <wire from="(730,110)" to="(730,160)"/>
@@ -145,15 +144,15 @@
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="circuitnamedbox" val="false"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(450,160)" to="(450,230)"/>
     <wire from="(420,140)" to="(470,140)"/>
     <wire from="(570,140)" to="(570,270)"/>
     <wire from="(430,230)" to="(450,230)"/>
-    <wire from="(450,160)" to="(470,160)"/>
+    <wire from="(450,180)" to="(470,180)"/>
     <wire from="(530,140)" to="(570,140)"/>
     <wire from="(570,140)" to="(610,140)"/>
     <wire from="(190,160)" to="(200,160)"/>
     <wire from="(190,100)" to="(200,100)"/>
+    <wire from="(450,180)" to="(450,230)"/>
     <wire from="(200,140)" to="(210,140)"/>
     <wire from="(200,120)" to="(210,120)"/>
     <wire from="(200,100)" to="(200,120)"/>
